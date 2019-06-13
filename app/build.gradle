@@ -51,6 +51,7 @@ dependencies {
     implementation "androidx.room:room-ktx:$room"
     kapt "androidx.room:room-compiler:$room"
     androidTestImplementation "androidx.room:room-testing:$room"
+    implementation "androidx.paging:paging-runtime:$pagingVersion"
 
     /*Lifecycle components*/
     implementation "androidx.lifecycle:lifecycle-extensions:$archLifecycleVersion"
@@ -68,6 +69,7 @@ dependencies {
     implementation 'com.android.support:design:28.0.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.recyclerview:recyclerview:1.1.0-alpha05'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
 
     /*Mushi*/
     implementation "com.squareup.moshi:moshi-kotlin:1.8.0"
